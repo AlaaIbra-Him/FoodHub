@@ -1,0 +1,194 @@
+a {
+    text-decoration: none;
+    color: rgb(243, 236, 236);
+}
+
+
+.cards {
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+}
+
+.card {
+    padding: 10px;
+    width: 25%;
+    height: 20rem;
+    box-shadow: 1px 1px 2rem rgb(54, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .cards :hover { */
+    /* box-shadow: 1px 1px 3rem rgb(62, 66, 81); */
+/* width: 26%; */
+/* } */
+
+.card__img {
+    width: 50%;
+}
+
+.card__head {
+
+    align-items: center;
+    justify-content: center;
+}
+
+.B-NOW {
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+}
+
+/* ------------------------------------------- */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 1rem 3rem;
+}
+
+.nav__logo {
+    font-size: 2rem;
+}
+
+.nav__links {
+    gap: 1rem;
+    display: flex;
+
+}
+
+.nav__links a {
+    font-size: .7rem;
+}
+
+.nav__icons {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+
+/* ---------------------------hero */
+.hero {
+    display: flex;
+    margin: 5rem 6rem;
+    justify-content: space-between;
+}
+
+.hero__content {
+    width: 40%;
+    padding-right: .5rem;
+}
+
+.hero__imgs {
+    width: 50%;
+}
+
+.hero__imgs img {
+    width: 100%;
+}
+
+/* --------------------------------- */
+.contant {
+    margin-left: 6rem;
+    width: 80%;
+}
+/* ----------------------blogs */
+.blogs{
+        display: flex;
+justify-content: space-evenly;
+align-content: center;
+}
+.blog {
+    padding: 10px;
+    width: 25%;
+    height:fit-content;
+    box-shadow: 1px 1px 2rem rgb(54, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+}
+
+.blogs :hover {
+    box-shadow: 1px 1px 3rem rgb(62, 66, 81);
+    /* width: 28%; */
+
+}
+
+.blog__img {
+        align-self:center;
+        width: 100%;
+    }
+
+.blog__head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ----------------------footer */
+.footer{
+    margin: 3rem;
+    margin-top: 8rem;
+}
+.f__contact{
+    /* margin: 0 8rem; */
+    display: flex;
+    justify-content: space-around;
+    
+}
+.f-second{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+
+.f__links{
+    display: flex;
+    flex-direction: column;
+}
+.footer__links{
+    display: flex;
+justify-content: space-between;
+gap: 4rem;
+}
+.f__imgs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 12rem;
+}
+.f__imgs img{
+    width: 3rem;
+    background-color: aliceblue;
+    margin: .3rem;
+}
+.f__sign{
+    display: flex;
+    flex-direction: column;
+    gap:.3rem;
+align-items:start;
+}
+.f__sign input{
+    padding: .5rem;
+    background-color: aliceblue;
+    color: black;
+    border: none;
+    width: 14rem;
+}
+.f__sign button{
+margin-left: 0;
+}
+.active{
+    color: brown;
+}
