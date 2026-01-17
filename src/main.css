@@ -48,7 +48,7 @@ a:hover {
 .card {
     padding: 1rem;
     width: 100%;
-    max-width: 280px;
+    max-width: 20rem;
     min-height: 400px;
     display: flex;
     flex-direction: column;
