@@ -1,0 +1,25 @@
+
+1. Purpose of a Git repository:
+Stores project code history, enables version control, collaboration, and rollback for front-end projects.
+
+
+2. Tracked vs untracked files:
+
+Tracked: monitored by Git (committed or staged).
+
+Untracked: new/ignored files not monitored.
+
+Issues: untracked files may cause missing dependencies or inconsistent project builds.
+
+
+
+3. Ignoring files (e.g., node_modules):
+Prevents large, unnecessary, or machine-specific files from bloating the repo and causing conflicts.
+
+
+4. Viewing project history:
+Helps track changes, debug issues, revert mistakes, and understand how a webpage evolved.
+
+
+5. Role of GitHub + GitHub Pages:
+GitHub hosts code remotely for collaboration, backup, and sharing. GitHub Pages makes the project live via a URL, adding easy testing and showcasing value for developers.
