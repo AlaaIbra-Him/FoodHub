@@ -33,9 +33,9 @@ function ProductDetails() {
   }
 
   return (
-    <div className='text-amber-50 min-h-screen mt-20 mb-16 px-4 md:px-8'>
+    <div className='text-amber-50 min-h-screen mt-15 mb-16 px-4 md:px-8'>
       {myDetails ? (
-        <div className='max-w-6xl mx-auto'>
+        <div className='max-w-6xl mx-auto pt-10'>
           
           {/* Back Button */}
           <NavLink 
